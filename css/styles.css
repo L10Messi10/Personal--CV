@@ -1,0 +1,22 @@
+body{
+  margin: 0;
+}
+h1{
+  margin-top: 0;
+}
+p{
+  margin-bottom: auto;
+}
+.topcontainer{
+  background-color: aquamarine;
+}
+.middlecontainer{
+  background-color: blueviolet;
+  width: 200px;
+  height: 200px;
+}
+.bottomcontainer{
+  background-color: brown;
+  width: 200px;
+  height: 200px;
+}
