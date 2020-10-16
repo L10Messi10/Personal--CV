@@ -15,8 +15,8 @@ hr {
   border-color: Gray;
   border-width: 10px;
   width: 5%;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 200px;
+  margin-bottom: 200px;
 }
 h2 {
   font-family: "Montserrat", sans-serif;
@@ -28,6 +28,7 @@ h3 {
   color: silver;
 }
 p {
+  line-height: 2;
   margin-bottom: auto;
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
@@ -44,6 +45,10 @@ p {
 }
 .middlecontainer{
   margin-top: 100px;
+}
+.bottomcontainer{
+  background-color: #193549;
+  margin-top: 300px;
 }
 .pro {
   text-decoration: underline;
@@ -70,4 +75,34 @@ p {
 .WcIDo{
   width: 50%;
   margin: 0 auto;
+}
+.getin-touch{
+  font-size: 3rem;
+}
+.btn {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  text-shadow: 3px 1px 4px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #0088E2;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #FF9D00;
+  text-decoration: none;
+}
+a{
+  color: #657986;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  margin-top: 50px;
+  text-decoration: none;
+}
+a:hover{
+  color: #FDC404;
 }
